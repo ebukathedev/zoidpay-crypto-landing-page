@@ -1,3 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700;800&family=Montserrat:wght@500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: Montserrat;
+        src: url("assets/fonts/Montserrat.ttf");
+    }
+    @font-face {
+        font-family: Inter;
+        src: url("assets/fonts/Inter.ttf");
+    }
+}
+
+@layer components {
+	.txt-gradient-100 {
+		@apply text-transparent bg-clip-text bg-txt-gradient-100;
+	}
+	.txt-gradient-200 {
+		@apply text-transparent bg-clip-text bg-txt-gradient-200;
+	}
+	.txt-gradient-300 {
+		@apply text-transparent bg-clip-text bg-txt-gradient-300;
+	}
+}
