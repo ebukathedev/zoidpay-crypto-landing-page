@@ -12,14 +12,14 @@ const Navbar = () => {
 	const handleClick = () => setIsOpen(!isOpen);
 
 	return (
-		<header className="relative py-5 px-4 text-txt-secondary-800 lg:py-7 xl:px-8">
+		<header className="sticky py-5 px-4 text-txt-secondary-800 lg:py-7 xl:px-8">
 			<div className="relative container mx-auto flex items-center justify-between font-semibold">
 				<FIrstDesktopMenu />
 				<HamburgerButton isOpen={isOpen} onClick={handleClick} />
 				<SecondDesktopMenu />
 				<MobileMenu isOpen={isOpen} />
 			</div>
-			<div className="absolute top-0 left-0 -z-10 opacity-60 md:opacity-100">
+			<div className="absolute top-0 left-0 -z-10">
 				<img src={oval} alt="oval" />
 			</div>
 		</header>

@@ -11,7 +11,7 @@ const FIrstDesktopMenu = () => {
 			</a>
 
 			{/* bar */}
-			<span className="hidden h-[35px] w-[2px] bg-black opacity-20 md:block"></span>
+			<span className="hidden h-[35px] w-[2px] bg-black opacity-10 md:block"></span>
 
 			<nav className="hidden md:flex md:items-center md:space-x-9">
 				<FirstMenuLink title="Personal" />

@@ -5,7 +5,7 @@ import CTAButton from "./CTAButton";
 import SubCTAButton from "./SubCTAButton";
 
 const styles =
-	"absolute top-14 right-0 w-3/4 p-5 shadow-lg rounded-lg max-w-xs duration-700 ease-in-out origin-top-right lg:hidden";
+	"absolute bg-white top-14 right-0 w-3/4 p-5 shadow-lg rounded-lg max-w-xs duration-700 ease-in-out origin-top-right lg:hidden";
 
 const MobileMenu = ({ isOpen }) => {
 	return (
@@ -26,7 +26,7 @@ const MobileMenu = ({ isOpen }) => {
 					<SecondMenuLink title="Get to know us" />
 				</nav>
 				<nav className="pt-4 flex flex-col space-y-4">
-					<CTAButton title="Migrate to ESDT" styles=" py-3 px-4" />
+					<CTAButton title="Migrate to ESDT" styles="px-4" />
 					<SubCTAButton title="Connect" />
 				</nav>
 			</div>

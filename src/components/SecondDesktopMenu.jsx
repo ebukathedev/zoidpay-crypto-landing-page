@@ -12,7 +12,7 @@ const SecondDesktopMenu = () => {
 			<SecondMenuLink title="Get to know us" />
 
 			<nav className="flex items-center space-x-5 font-bold">
-				<CTAButton title="Migrate to ESDT" styles=" py-3 px-4" />
+				<CTAButton title="Migrate to ESDT" styles="px-4 py-3" />
 				<SubCTAButton title="Connect" />
 			</nav>
 		</nav>

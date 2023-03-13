@@ -37,6 +37,8 @@ module.exports = {
 					"radial-gradient(23.65% 2629.9% at 57.79% 50%, #6E6EFD 0%, #3636DE 100%)",
 				"txt-gradient-300":
 					"linear-gradient(90deg, #6E6EFD 34.14%, #3636DE 81.45%)",
+				"gradient-bg":
+					"linear-gradient(95.51deg, #2424D0 11.17%, #3E3EED 87.35%)",
 			},
 		},
 	},
