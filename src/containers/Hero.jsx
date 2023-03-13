@@ -9,7 +9,7 @@ const Hero = () => {
 				<div className="flex flex-col md:flex-row-reverse items-center md:pl-10 lg:pl-20">
 					{/* hero image */}
 					<div className="max-w-sm md:w-1/2 md:max-w-none">
-						<img src={heroImage} alt="Zoidpay 3d illustration" />
+						<img src={heroImage} alt="Zoidpay 3d illustration" loading="lazy"/>
 					</div>
 
 					{/* heading */}
