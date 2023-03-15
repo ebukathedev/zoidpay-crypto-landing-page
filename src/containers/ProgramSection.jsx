@@ -1,5 +1,6 @@
 import React from "react";
 import mapIllustration from "../assets/images/png/map-illustration.png";
+import SubHeading from "../components/SubHeading";
 
 const ProgramSection = () => {
 	return (
@@ -8,9 +9,7 @@ const ProgramSection = () => {
 				<h3 className="uppercase font-extrabold text-sm lg:text-lg">
 					About the
 				</h3>
-				<h2 className="font-bold text-2xl lg:text-4xl xl:text-5xl">
-					Ambassador Program
-				</h2>
+				<SubHeading title="Ambassador Program" />
 				<p className="font-medium py-3 max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-3xl mx-auto text-left sm:text-center md:text-lg lg:text-xl lg:leading-[40px] xl:max-w-5xl">
 					ZoidPay is fast becoming one of the most sought after
 					projects when it comes to offering crypto liquidity
