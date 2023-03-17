@@ -24,6 +24,7 @@ module.exports = {
 				"line-secondary": "#D4D4FB",
 				"secondary-100": "#E0E0F9",
 				"shadow-accent-100": "#E7E7FB",
+				"shadow-accent-200": "rgba(120, 120, 168, 0.17)",
 			},
 			fontFamily: {
 				inter: ["Inter", "sans-serif"],
